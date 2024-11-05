@@ -1,4 +1,4 @@
-package com.devotionhub
+package com.meseire.devotionhub
 
 import android.os.Build
 import android.os.Bundle

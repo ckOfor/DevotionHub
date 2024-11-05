@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "DevotionHub.app"
-               BlueprintName = "DevotionHub"
-               ReferencedContainer = "container:DevotionHub.xcodeproj">
+               BuildableName = "DevoionHub.app"
+               BlueprintName = "DevoionHub"
+               ReferencedContainer = "container:DevoionHub.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "DevotionHubTests.xctest"
-               BlueprintName = "DevotionHubTests"
-               ReferencedContainer = "container:DevotionHub.xcodeproj">
+               BuildableName = "DevoionHubTests.xctest"
+               BlueprintName = "DevoionHubTests"
+               ReferencedContainer = "container:DevoionHub.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "DevotionHub.app"
-            BlueprintName = "DevotionHub"
-            ReferencedContainer = "container:DevotionHub.xcodeproj">
+            BuildableName = "DevoionHub.app"
+            BlueprintName = "DevoionHub"
+            ReferencedContainer = "container:DevoionHub.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "DevotionHub.app"
-            BlueprintName = "DevotionHub"
-            ReferencedContainer = "container:DevotionHub.xcodeproj">
+            BuildableName = "DevoionHub.app"
+            BlueprintName = "DevoionHub"
+            ReferencedContainer = "container:DevoionHub.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

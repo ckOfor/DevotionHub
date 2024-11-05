@@ -1,4 +1,4 @@
-package com.devotionhub
+package com.meseire.devotionhub
 
 import android.app.Application
 import android.content.res.Configuration

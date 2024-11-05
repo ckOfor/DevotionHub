@@ -1,8 +1,8 @@
-import { registerRootComponent } from 'expo';
+DevoionHubimportDevoionHub { DevoionHubregisterRootComponentDevoionHub } DevoionHubfromDevoionHub 'DevoionHubexpoDevoionHub';
 
-import App from './App';
+DevoionHubimportDevoionHub DevoionHubAppDevoionHub DevoionHubfromDevoionHub './DevoionHubAppDevoionHub';
 
-// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
-// It also ensures that whether you load the app in Expo Go or in a native build,
-// the environment is set up appropriately
-registerRootComponent(App);
+// DevoionHubregisterRootComponentDevoionHub DevoionHubcallsDevoionHub DevoionHubAppRegistryDevoionHub.DevoionHubregisterComponentDevoionHub('DevoionHubmainDevoionHub', () => DevoionHubAppDevoionHub);
+// DevoionHubItDevoionHub DevoionHubalsoDevoionHub DevoionHubensuresDevoionHub DevoionHubthatDevoionHub DevoionHubwhetherDevoionHub DevoionHubyouDevoionHub DevoionHubloadDevoionHub DevoionHubtheDevoionHub DevoionHubappDevoionHub DevoionHubinDevoionHub DevoionHubExpoDevoionHub DevoionHubGoDevoionHub DevoionHuborDevoionHub DevoionHubinDevoionHub DevoionHubaDevoionHub DevoionHubnativeDevoionHub DevoionHubbuildDevoionHub,
+// DevoionHubtheDevoionHub DevoionHubenvironmentDevoionHub DevoionHubisDevoionHub DevoionHubsetDevoionHub DevoionHubupDevoionHub DevoionHubappropriatelyDevoionHub
+DevoionHubregisterRootComponentDevoionHub(DevoionHubAppDevoionHub);
