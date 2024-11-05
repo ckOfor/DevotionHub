@@ -2,6 +2,55 @@
   "expo": {
     "name": "DevotionHub",
     "slug": "DevotionHub",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "48082575-4a2b-47d7-862c-ca5e5b11ea53"
+      }
+    },
+    "owner": "mesiere",
+    "ios": {
+      "bundleIdentifier": "com.mesiere.devotionhub",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSPrivacyAccessedAPITypes": [
+          {
+            "NSPrivacyAccessedAPIType": "NSPrivacyAccessedAPICategoryUserDefaults",
+            "NSPrivacyAccessedAPITypeReasons": ["CTA1"]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "com.mesiere.devotionhu",
+      "versionCode": 1,
+      "buildType": "app-bundle"
+    },
+    "build": {
+      "production": {
+        "workflow": "managed",
+        "releaseChannel": "production",
+        "hooks": {
+          "pre-build": "node ./scripts/clean-privacy-files.js"
+        },
+        "android": {
+          "buildType": "apk",
+          "gradleCommand": ":app:assembleRelease"
+        }
+      },
+      "preview": {
+        "workflow": "managed",
+        "releaseChannel": "preview",
+        "developmentClient": true
+      }
+    },
+    "submit": {
+      "production": {
+        "android": {
+          "serviceAccountKeyPath": "/Users/chineduofor/Documents/GitHub/devotionhub-mobile/animated-flow-440807-s0-9eeb0f29e298.json",
+          "track": "internal"
+        }
+      }
+    }
   }
 }
