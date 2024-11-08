@@ -1,0 +1,18 @@
+{
+	"todosFromApi": "Todos from API:",
+	"yourTodos": "Your Todos:",
+	"newTodo": "New todo",
+	"addTodo": "Add Todo",
+	"remove": "Remove",
+	"currentTheme": "Current theme: {{theme}}",
+	"currentLanguage": "Current language: {{language}}",
+	"numberOfTodos": "Number of todos: {{count}}",
+	"switchToLightTheme": "Switch to Light Theme",
+	"switchToDarkTheme": "Switch to Dark Theme",
+	"switchToSystemTheme": "Switch to System Theme",
+	"goToDetails": "Go to Details",
+	"goBackToHome": "Go back to Home",
+	"detailsScreen": "Details Screen",
+	"loading": "Loading...",
+	"errorOccurred": "An error occurred: {{message}}"
+}

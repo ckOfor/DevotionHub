@@ -10,7 +10,7 @@
     },
     "owner": "mesiere",
     "ios": {
-      "bundleIdentifier": "com.mesiere.devotionhub",
+      "bundleIdentifier": "com.meseire.devotionhub",
       "buildNumber": "1.0.0",
       "infoPlist": {
         "NSPrivacyAccessedAPITypes": [
@@ -22,7 +22,7 @@
       }
     },
     "android": {
-      "package": "com.mesiere.devotionhu",
+      "package": "com.meseire.devotionhub",
       "versionCode": 1,
       "buildType": "app-bundle"
     },
@@ -32,6 +32,9 @@
         "releaseChannel": "production",
         "hooks": {
           "pre-build": "node ./scripts/clean-privacy-files.js"
+        },
+        "ios": {
+          "ascAppId": "com.meseire.devotionhub"
         },
         "android": {
           "buildType": "apk",

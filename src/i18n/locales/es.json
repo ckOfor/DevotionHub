@@ -1,0 +1,18 @@
+{
+	"todosFromApi": "Tareas de la API:",
+	"yourTodos": "Tus Tareas:",
+	"newTodo": "Nueva tarea",
+	"addTodo": "Agregar Tarea",
+	"remove": "Eliminar",
+	"currentTheme": "Tema actual: {{theme}}",
+	"currentLanguage": "Idioma actual: {{language}}",
+	"numberOfTodos": "Número de tareas: {{count}}",
+	"switchToLightTheme": "Cambiar a Tema Claro",
+	"switchToDarkTheme": "Cambiar a Tema Oscuro",
+	"switchToSystemTheme": "Cambiar a Tema del Sistema",
+	"goToDetails": "Ir a Detalles",
+	"goBackToHome": "Volver a Inicio",
+	"detailsScreen": "Pantalla de Detalles",
+	"loading": "Cargando...",
+	"errorOccurred": "Ocurrió un error: {{message}}"
+}
